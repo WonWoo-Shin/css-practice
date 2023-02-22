@@ -1,15 +1,60 @@
-html {
-  background-color: grey;
-}
-
+/* body 요소에 대한 스타일링 */
 body {
-  background-color: thistle;
-  height: 200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f5f5f5;
 }
 
-div {
-  background-color: white;
-  width: 100px;
-  height: 100px;
-  margin: 30px;
+/* 네비게이션 바에 대한 스타일링 */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2db400;
+  color: white;
+  padding: 10px;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin-left: 10px;
+}
+
+/* 메인 콘텐츠에 대한 스타일링 */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("main-bg.jpg");
+  background-size: cover;
+}
+
+.main-text {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 푸터에 대한 스타일링 */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
 }

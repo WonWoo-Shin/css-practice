@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  width: 420px;
+  height: 820px;
+  position: relative;
+}
+
+header {
+  background-color: #ffc72d;
+  height: 100px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.search-bar {
+  position: absolute;
+  top: 75px;
+  left: 50px;
+  background-color: white;
+  width: 320px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h2:first-child {
+  margin-top: 50px;
+}
+
+.book-of-day {
+  margin: 25px 0;
+  display: flex;
+}
+
+.book-of-day img {
+  width: 108px;
+  height: 164px;
+  object-fit: cover;
+  border-radius: 7%;
+}
+
+.book-of-day__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-of-day__info h3 {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.book-of-day__info h4 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.author {
+  display: flex;
+}
+
+.author h5 {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 75px;
+  height: 25px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+}
+
+.button__bookmark {
+  width: 35px;
+  height: 35px;
+  background-color: #fccc32;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__book-now {
+  width: 100px;
+  height: 35px;
+  margin-left: 30px;
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  color: whitesmoke;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-adventure {
+  display: flex;
+  margin: 20px 0;
+  overflow: scroll;
+  height: 170px;
+}
+
+.top-adventure::-webkit-scrollbar {
+  width: 8px;
+}
+
+.top-adventure::-webkit-scrollbar-thumb {
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+}
+
+.top-adventure::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+}
+
+.item {
+  margin-right: 20px;
+}
+
+.item img {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 7%;
+  margin-bottom: 20px;
+}
+
+.item .score {
+  font-size: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+}
+
+.author-img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer section {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer section h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer section span {
+  line-height: 130%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
