@@ -1,0 +1,15 @@
+html {
+  background-color: grey;
+}
+
+body {
+  background-color: thistle;
+  height: 200px;
+}
+
+div {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+}
